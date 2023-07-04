@@ -1,11 +1,14 @@
 .program_section {
     display: flex;
-    overflow-x: scroll;
+    overflow-x: hidden;
     scroll-behavior: smooth ;
+  }
+  .main_section{
+    background-color: azure;
   }
   
   .main_section h1 {
-    margin-top: 3rem;
+    margin-top: 1rem;
     display: flex;
     align-items: center;
     justify-items: center;

@@ -1,6 +1,6 @@
 .main_section{
     background-color: rgb(161, 151, 151);
-    height: 115vh;
+    min-height: 90vh;
 }
 .main_section h1{
     margin-top: 2.5rem;
@@ -22,6 +22,7 @@
     /* align-items: center;
     justify-content: center; */
     gap: 2rem;
+    margin-top: 30px;
     
 }
 
@@ -40,11 +41,12 @@
 .buttons button{
     width: 8rem;
     height: 2rem;
-    background-color: green;
+    background-color: rgb(20, 55, 153);
     border-radius: .5rem;
     cursor: pointer;
     margin-left: 40%;
     margin-top: 1rem;
+    margin-bottom: 1rem;
     font-size: 1.2rem;
     color: #fff;
     transition: .4s ease-in-out;

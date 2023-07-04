@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './Home.module.css'
-import IMG from '../assets/gyms.png';
+import gym from '../assets/gym.jpg';
 import Modals from '../Login-Signup/Modal';
 
 export default function Home() {
@@ -9,13 +9,11 @@ export default function Home() {
       <div className={styles.home_section_one}>
         <div className={styles.home_content}>
          <h1> “Take care of your body. It’s the only place you have to live.”  </h1>
-         <button>
-           Welcome
-          </button>
-          <Modals/>
+         <button>Welcome</button>
+         <Modals/>
         </div>
         <div className={styles.home_image}>
-          <img src={IMG} alt='HOME'/>
+          <img src={gym} alt='HOME'/>
         </div>
       </div>
 

@@ -36,7 +36,7 @@ color: red;
 font-size: 2rem;
 }
 .text_section button{
-    background-color: green;
+    background-color: rgb(20, 55, 153);
     width: 6rem;
     height: 2.2rem;
     border-radius: .4rem;

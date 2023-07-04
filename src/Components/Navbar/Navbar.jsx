@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import styles from "./Navbar.module.css";
-import GYM from "../assets/gym.png";
+import gymlogo from "../assets/gymlogo.png";
 import DehazeIcon from "@mui/icons-material/Dehaze";
 import CloseIcon from "@mui/icons-material/Close";
 import Modals from "../Login-Signup/Modal";
@@ -18,7 +18,7 @@ export default function Navbar() {
       <div className={styles.navbar}>
         <div className={styles.image}>
           <a href="/#">
-            <img src={GYM} alt="GYM" />
+            <img src={gymlogo} alt="GYM" />
           </a>
         </div>
         <div className={styles.navbar_tems}>
